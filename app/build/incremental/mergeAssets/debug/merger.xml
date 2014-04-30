@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="C:\Users\Alex\AndroidStudioProjects\Robot Game\app\src\main\assets" >
+            <file
+                name="background.png"
+                path="C:\Users\Alex\AndroidStudioProjects\Robot Game\app\src\main\assets\background.png" />
+            <file
+                name="button.jpg"
+                path="C:\Users\Alex\AndroidStudioProjects\Robot Game\app\src\main\assets\button.jpg" />
+            <file
+                name="character.png"
+                path="C:\Users\Alex\AndroidStudioProjects\Robot Game\app\src\main\assets\character.png" />
+            <file
+                name="character2.png"
+                path="C:\Users\Alex\AndroidStudioProjects\Robot Game\app\src\main\assets\character2.png" />
+            <file
+                name="character3.png"
+                path="C:\Users\Alex\AndroidStudioProjects\Robot Game\app\src\main\assets\character3.png" />
+            <file
+                name="down.png"
+                path="C:\Users\Alex\AndroidStudioProjects\Robot Game\app\src\main\assets\down.png" />
+            <file
+                name="heliboy.png"
+                path="C:\Users\Alex\AndroidStudioProjects\Robot Game\app\src\main\assets\heliboy.png" />
+            <file
+                name="heliboy2.png"
+                path="C:\Users\Alex\AndroidStudioProjects\Robot Game\app\src\main\assets\heliboy2.png" />
+            <file
+                name="heliboy3.png"
+                path="C:\Users\Alex\AndroidStudioProjects\Robot Game\app\src\main\assets\heliboy3.png" />
+            <file
+                name="heliboy4.png"
+                path="C:\Users\Alex\AndroidStudioProjects\Robot Game\app\src\main\assets\heliboy4.png" />
+            <file
+                name="heliboy5.png"
+                path="C:\Users\Alex\AndroidStudioProjects\Robot Game\app\src\main\assets\heliboy5.png" />
+            <file
+                name="jumped.png"
+                path="C:\Users\Alex\AndroidStudioProjects\Robot Game\app\src\main\assets\jumped.png" />
+            <file
+                name="menu.png"
+                path="C:\Users\Alex\AndroidStudioProjects\Robot Game\app\src\main\assets\menu.png" />
+            <file
+                name="menutheme.mp3"
+                path="C:\Users\Alex\AndroidStudioProjects\Robot Game\app\src\main\assets\menutheme.mp3" />
+            <file
+                name="splash.jpg"
+                path="C:\Users\Alex\AndroidStudioProjects\Robot Game\app\src\main\assets\splash.jpg" />
+            <file
+                name="tiledirt.png"
+                path="C:\Users\Alex\AndroidStudioProjects\Robot Game\app\src\main\assets\tiledirt.png" />
+            <file
+                name="tilegrassbot.png"
+                path="C:\Users\Alex\AndroidStudioProjects\Robot Game\app\src\main\assets\tilegrassbot.png" />
+            <file
+                name="tilegrassleft.png"
+                path="C:\Users\Alex\AndroidStudioProjects\Robot Game\app\src\main\assets\tilegrassleft.png" />
+            <file
+                name="tilegrassright.png"
+                path="C:\Users\Alex\AndroidStudioProjects\Robot Game\app\src\main\assets\tilegrassright.png" />
+            <file
+                name="tilegrasstop.png"
+                path="C:\Users\Alex\AndroidStudioProjects\Robot Game\app\src\main\assets\tilegrasstop.png" />
+        </source>
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="C:\Users\Alex\AndroidStudioProjects\Robot Game\app\src\debug\assets" />
+    </dataSet>
+
+</merger>

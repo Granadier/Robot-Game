@@ -1,0 +1,142 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Risky Project Location:
+-----------------------
+The tools *should* handle project locations in any directory. However,
+due to bugs, placing projects in directories containing spaces in the
+path, or characters like ", ' and &, have had issues. We're working to
+eliminate these bugs, but to save yourself headaches you may want to
+move your project to a location where this is not a problem.
+C:\Users\Alex\AndroidStudioProjects\Robot Game
+                                         -    
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea\
+* .idea\.name
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\encodings.xml
+* .idea\libraries\
+* .idea\libraries\android_support_v4.xml
+* .idea\misc.xml
+* .idea\modules.xml
+* .idea\scopes\
+* .idea\scopes\scope_settings.xml
+* .idea\vcs.xml
+* .idea\workspace.xml
+* Robot Game.iml
+* out\
+* out\production\
+* out\production\Robot Game\
+* out\production\Robot Game\Robot Game.afp.apk
+* out\production\Robot Game\Robot Game.apk
+* out\production\Robot Game\Robot Game.apk.res
+* out\production\Robot Game\Robot Game.unaligned.apk
+* out\production\Robot Game\classes.dex
+* out\production\Robot Game\com\
+* out\production\Robot Game\com\apersian\
+* out\production\Robot Game\com\apersian\framework\
+* out\production\Robot Game\com\apersian\framework\Audio.class
+* out\production\Robot Game\com\apersian\framework\FileIO.class
+* out\production\Robot Game\com\apersian\framework\Game.class
+* out\production\Robot Game\com\apersian\framework\Graphics$ImageFormat.class
+* out\production\Robot Game\com\apersian\framework\Graphics.class
+* out\production\Robot Game\com\apersian\framework\Image.class
+* out\production\Robot Game\com\apersian\framework\Input$TouchEvent.class
+* out\production\Robot Game\com\apersian\framework\Input.class
+* out\production\Robot Game\com\apersian\framework\Music.class
+* out\production\Robot Game\com\apersian\framework\Pool$PoolObjectFactory.class
+* out\production\Robot Game\com\apersian\framework\Pool.class
+* out\production\Robot Game\com\apersian\framework\Screen.class
+* out\production\Robot Game\com\apersian\framework\Sound.class
+* out\production\Robot Game\com\apersian\framework\implementation\
+* out\production\Robot Game\com\apersian\framework\implementation\AndroidAudio.class
+* out\production\Robot Game\com\apersian\framework\implementation\AndroidFastRenderView.class
+* out\production\Robot Game\com\apersian\framework\implementation\AndroidFileIO.class
+* out\production\Robot Game\com\apersian\framework\implementation\AndroidGame.class
+* out\production\Robot Game\com\apersian\framework\implementation\AndroidGraphics.class
+* out\production\Robot Game\com\apersian\framework\implementation\AndroidImage.class
+* out\production\Robot Game\com\apersian\framework\implementation\AndroidInput.class
+* out\production\Robot Game\com\apersian\framework\implementation\AndroidMusic.class
+* out\production\Robot Game\com\apersian\framework\implementation\AndroidSound.class
+* out\production\Robot Game\com\apersian\framework\implementation\MultiTouchHandler$1.class
+* out\production\Robot Game\com\apersian\framework\implementation\MultiTouchHandler.class
+* out\production\Robot Game\com\apersian\framework\implementation\SingleTouchHandler$1.class
+* out\production\Robot Game\com\apersian\framework\implementation\SingleTouchHandler.class
+* out\production\Robot Game\com\apersian\framework\implementation\TouchHandler.class
+* out\production\Robot Game\com\apersian\robotgame\
+* out\production\Robot Game\com\apersian\robotgame\Animation$AnimFrame.class
+* out\production\Robot Game\com\apersian\robotgame\Animation.class
+* out\production\Robot Game\com\apersian\robotgame\Assets.class
+* out\production\Robot Game\com\apersian\robotgame\Background.class
+* out\production\Robot Game\com\apersian\robotgame\BuildConfig.class
+* out\production\Robot Game\com\apersian\robotgame\Enemy.class
+* out\production\Robot Game\com\apersian\robotgame\GameScreen$GameState.class
+* out\production\Robot Game\com\apersian\robotgame\GameScreen.class
+* out\production\Robot Game\com\apersian\robotgame\Heliboy.class
+* out\production\Robot Game\com\apersian\robotgame\LoadingScreen.class
+* out\production\Robot Game\com\apersian\robotgame\MainMenuScreen.class
+* out\production\Robot Game\com\apersian\robotgame\Projectile.class
+* out\production\Robot Game\com\apersian\robotgame\R$attr.class
+* out\production\Robot Game\com\apersian\robotgame\R$drawable.class
+* out\production\Robot Game\com\apersian\robotgame\R$raw.class
+* out\production\Robot Game\com\apersian\robotgame\R$string.class
+* out\production\Robot Game\com\apersian\robotgame\R$style.class
+* out\production\Robot Game\com\apersian\robotgame\R.class
+* out\production\Robot Game\com\apersian\robotgame\Robot.class
+* out\production\Robot Game\com\apersian\robotgame\RobotGame.class
+* out\production\Robot Game\com\apersian\robotgame\SplashLoadingScreen.class
+* out\production\Robot Game\com\apersian\robotgame\Tile.class
+* out\res-cache\
+* out\res-cache\Robot Game\
+* out\res-cache\Robot Game\drawable-hdpi\
+* out\res-cache\Robot Game\drawable-hdpi\icon.png
+* out\res-cache\Robot Game\drawable-mdpi\
+* out\res-cache\Robot Game\drawable-mdpi\ic_launcher.png
+* out\res-cache\Robot Game\drawable-xhdpi\
+* out\res-cache\Robot Game\drawable-xhdpi\ic_launcher.png
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:+
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets\
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
